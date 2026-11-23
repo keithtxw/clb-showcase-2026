@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fredoka', 'Comic Sans MS', system-ui, sans-serif;
+  --color-sunny: #ffd23f;
+  --color-candy: #ff5d8f;
+  --color-sky: #3bc1ff;
+  --color-grass: #4cd964;
+  --color-grape: #a66bff;
+  --color-tangerine: #ff9f1c;
+  --color-ink: #3a2a6b;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-display);
+  background: var(--color-sky);
+  color: var(--color-ink);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
